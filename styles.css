@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4; /* Color de fondo suave */
+  color: #333; /* Color de texto principal */
+  padding: 20px;
+}
+
+.calculator-container {
+  background-color: #fff; /* Fondo blanco para la calculadora */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar la calculadora */
+  padding: 20px;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.calculator-container h2 {
+  text-align: center;
+  color: #4CAF50; /* Asumiendo color verde como parte de la paleta corporativa */
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd; /* Bordes suaves para los campos de entrada */
+  font-size: 16px; /* Tamaño de fuente legible */
+}
+
+.output-field {
+  margin-bottom: 20px;
+}
+
+.output-field label,
+.output-field span {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.output-field span {
+  font-weight: bold;
+  color: #4CAF50; /* Asumiendo color verde para los resultados */
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50; /* Color verde para el botón */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* Un tono más oscuro de verde para el hover */
+}
+
+#result,
+#roiExplanation {
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #dbf6e9; /* Fondo claro para los resultados */
+  color: #2e7d32; /* Texto oscuro para contraste */
+  margin-top: 20px;
+}

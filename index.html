@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROI Calculator - Minerva</title>
+<!-- Aquí irían las referencias a los estilos CSS y cualquier otro recurso -->
+</head>
+<body>
+
+<div class="calculator-container">
+  <h2>ROI in Revenue Add Value - Super Employees!</h2>
+  
+  <label for="numEmployees">Number of Employees:</label>
+  <input type="number" id="numEmployees" value="150" placeholder="Enter number of employees" class="input-field">
+
+  <label for="annualRevenuePerEmployee">Annual Revenue per Employee ($):</label>
+  <input type="number" id="annualRevenuePerEmployee" placeholder="Enter annual revenue per employee" class="input-field">
+
+  <label for="annualCostPerEmployee">Annual Cost per Employee ($):</label>
+  <input type="number" id="annualCostPerEmployee" placeholder="Enter annual cost per employee" class="input-field">
+
+  <label for="hoursWorkedPerYear">Hours Worked per Year:</label>
+  <input type="number" id="hoursWorkedPerYear" placeholder="Enter hours worked per year" class="input-field">
+
+  <!-- La facturación media por hora y la facturación adicional por empleado se calculan automáticamente y no son editables por el usuario -->
+  <div class="output-field">
+    <label>Average Revenue per Hour per Employee ($):</label>
+    <span id="revenuePerHour"></span>
+  </div>
+
+  <div class="output-field">
+    <label>Additional Revenue per Employee per Year ($):</label>
+    <span id="additionalRevenuePerEmployee"></span>
+  </div>
+
+  <div class="output-field">
+    <label>Total Additional Revenue (all employees) ($):</label>
+    <span id="totalAdditionalRevenue"></span>
+  </div>
+
+  <div class="output-field">
+    <label>Total Annual Cost of Minerva to Your Company ($):</label>
+    <span id="totalAnnualCostMinerva"></span>
+  </div>
+
+  <button onclick="calculateROI()">Calculate ROI</button>
+
+  <div id="result">ROI: <span id="roiPercentage"></span></div>
+  <div id="roiExplanation"></div>
+</div>
+
+<!-- Aquí iría la referencia al código JavaScript -->
+<script src="path_to_your_script.js"></script>
+
+</body>
+</html>
